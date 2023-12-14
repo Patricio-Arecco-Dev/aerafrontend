@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.grid-container {
+  background-color: white;
+  /* margin: 0px; */
+  height: 12vh;
+  display: grid;
+  grid-template-columns: auto 10vw;
+}
+/* Title Grid */
+.grid-title {
+  margin: auto;
+}
+h1 {
+  color: black;
+  font-size: 3em;
+}
+
+/* Session Grid */
+.grid-session {
+  display: grid;
+}
+.grid-session img {
+  place-self: center;
+  width: 40px;
+}
+.grid-session p {
+  place-self: center;
+}

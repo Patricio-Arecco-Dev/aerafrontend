@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .paintings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #fff,
+      #fff 20px,
+      #fbfbfb 20px,
+      #fbfbfb 40px
+    );
+  }
+  
+  .card-painting {
+    background-color: #fff;
+    max-width: 30vw;
+    min-width: 350px;
+    height: 30vw;
+    border: 3px double black;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 10px;
+  
+  }
+  
+  .card-painting-photo {
+    height:90%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    /* object-fit: cover; */
+  }
+  .card-img {
+    object-fit: contain;
+    width: 100%;
+    height:auto;
+    /* max-height:99%; */
+    /* max-width:98%; */
+  }
+  
+  .card-painting-title {
+    height:10%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .painting-title {
+    font-size: 1em;
+    padding: 0px;
+    margin: auto;
+  }
+
+  .super-img {
+    width: auto;
+    height:auto;
+    max-height:99%;
+    max-width:98%;
+  }

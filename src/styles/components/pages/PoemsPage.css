@@ -1,0 +1,55 @@
+.poem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #fff,
+      #fff 20px,
+      #fbfbfb 20px,
+      #fbfbfb 40px
+    );
+  }
+  
+  .card-poem {
+    background-color: rgb(255, 250, 244);
+    display: inline-block;
+    border: 3px double black;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    max-width: 40vw;
+    min-width: 350px;
+    min-height: 350px;
+  }
+  
+  .card-poem-photo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-poem-title {
+    display: flex;
+    justify-content: center;
+  }
+  .card-poem-title {
+    padding: 0px;
+    margin: 1em;
+  }
+  .poem-title {
+    font-size: 1em;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .card-poem-poem {
+    padding: 0px;
+    margin: 1em;
+  }
+  .poem-poem {
+    font-size: 1em;
+    width: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+  }

@@ -1,0 +1,92 @@
+main {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.biography {
+  display: flex;
+  flex-direction: column;
+}
+
+.p_biographyPage {
+  font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  word-spacing: 0.25em;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.biographyRowEven {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.biographyRowOdd {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.card {
+  flex: 50%;
+  flex-direction: row;
+  min-height: 60vh;
+  width: 50vw;
+  margin: 10px;
+  padding: 0px;
+}
+
+.photo {
+  display: grid;
+  place-items: center;
+  /* background-color: red; */
+}
+img {
+  /* height: 10%; */
+  max-width: 60vw;
+  max-height: 60vh;
+
+  /* max-width: 38vmax;
+    max-height: 38vmax; */
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.text {
+  background-color: rgb(173, 173, 173);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+
+spam {
+  font-weight: bold;
+}
+
+.img_biographyPage_icon {
+  height: 1rem;
+  display: inline;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.p_biographyPage_date {
+  display: inline;
+  font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  word-spacing: 0.25em;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.h3_biographyPage {
+  font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  word-spacing: 0.25em;
+  -webkit-user-select: none;
+  user-select: none;
+}

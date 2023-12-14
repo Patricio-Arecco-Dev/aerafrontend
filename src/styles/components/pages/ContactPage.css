@@ -1,0 +1,83 @@
+.contact {
+  display: flex;
+  gap: 24px;
+  min-height: 72vh;
+}
+.input_contactPage,
+.textarea_contactPage,
+.label_contactPage,
+.h2_contactPage,
+.li_contactPage {
+  margin: 7px;
+}
+
+.contact div {
+  width: 100%;
+  margin: 10px;
+}
+
+.data .p_contactPage {
+  font-size: 14px;
+}
+
+.data .lu_contactPage .li_contactPage {
+  font-size: 13px;
+}
+
+.contactForm .p_contactPage {
+  display: flex;
+}
+
+.contactForm .p_contactPage .label_contactPage {
+  display: flex;
+  min-width: 80px;
+  align-items: center;
+}
+
+.contactForm .p_contactPage .input_contactPage,
+.contactForm .p_contactPage .textarea_contactPage {
+  width: 100%;
+  background: #ddd;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+.contactForm .p_contactPage:nth-child(4) {
+  align-items: start;
+}
+
+.contactForm .textarea_contactPage {
+  resize: none;
+  height: 150px;
+}
+
+.contactForm .input_contactPage[type="submit"] {
+  background: #6c6c6d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 16px;
+  padding: 6px 20px;
+  width: auto;
+  position: relative;
+  left: 90px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.contactForm .input_contactPage[type="submit"]:hover {
+  background-color: rgb(0, 0, 0);
+}
+.submitFormMsg {
+  display: flex;
+  justify-content: center;
+}
+
+.div_image {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
