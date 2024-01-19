@@ -22,17 +22,19 @@ body {
 }
 h1 {
   color: black;
-  font-size: 3em;
+  /* font-size: 3em; */
+  font-size: 4.5vw;
 }
 
 /* Session Grid */
-.grid-session {
+/* .grid-session {
   display: grid;
 }
 .grid-session img {
   place-self: center;
-  width: 40px;
+  width: 4vw;
 }
 .grid-session p {
   place-self: center;
-}
+  font-size: 1vw;
+} */

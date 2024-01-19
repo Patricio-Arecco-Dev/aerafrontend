@@ -1,6 +1,7 @@
 .poem {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-evenly;
     margin: 0px;
     padding: 0px;
@@ -14,15 +15,15 @@
   }
   
   .card-poem {
-    background-color: rgb(255, 250, 244);
-    display: inline-block;
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 44%;
+    background-color: rgba(226, 225, 224, 0.534);
+    /* display: inline-block; */
     border: 3px double black;
     border-radius: 1em;
     margin: 1em;
     padding: 1em;
-    max-width: 40vw;
-    min-width: 350px;
-    min-height: 350px;
   }
   
   .card-poem-photo {
@@ -52,4 +53,5 @@
     width: 100%;
     -webkit-user-select: none;
     user-select: none;
+    overflow: auto;
   }

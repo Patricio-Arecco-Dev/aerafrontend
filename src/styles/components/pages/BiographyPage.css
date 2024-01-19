@@ -6,52 +6,32 @@ main {
 
 .biography {
   display: flex;
-  flex-direction: column;
-}
-
-.p_biographyPage {
-  font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
-  letter-spacing: 0.1em;
-  word-spacing: 0.25em;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-.biographyRowEven {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.biographyRowOdd {
-  display: flex;
-  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 10px;
 }
 
 .card {
-  flex: 50%;
-  flex-direction: row;
-  min-height: 60vh;
-  width: 50vw;
-  margin: 10px;
-  padding: 0px;
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: 48%;
 }
 
 .photo {
-  display: grid;
-  place-items: center;
-  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 10px;
 }
-img {
-  /* height: 10%; */
-  max-width: 60vw;
-  max-height: 60vh;
 
-  /* max-width: 38vmax;
-    max-height: 38vmax; */
-  border-radius: 10px;
+img {
+  width: 100%;
   padding: 0px;
-  margin: 0px;
+  margin: auto;
+}
+.img_photo {
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .text {
@@ -60,6 +40,14 @@ img {
   border-radius: 10px;
   padding: 10px;
   text-align: justify;
+}
+
+.p_biographyPage {
+  font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  word-spacing: 0.25em;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 spam {
@@ -86,7 +74,7 @@ spam {
   font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   letter-spacing: 0.1em;
-  word-spacing: 0.25em;
   -webkit-user-select: none;
   user-select: none;
+  text-align: center;
 }

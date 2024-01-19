@@ -6,6 +6,7 @@
   .paintings {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-evenly;
     background-image: repeating-linear-gradient(
       90deg,
@@ -17,36 +18,39 @@
   }
   
   .card-painting {
+    flex-basis: 0;
+    flex-grow: 999;
     background-color: #fff;
-    max-width: 30vw;
-    min-width: 350px;
-    height: 30vw;
+    max-width: 90vw;
+    min-width: 250px;
     border: 3px double black;
     border-radius: 1em;
     margin: 1em;
     padding: 10px;
-  
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-content: space-between; */
   }
   
   .card-painting-photo {
-    height:90%;
-    width:100%;
+    max-height:100%;
+    max-width:100%;
     display: flex;
     justify-content: center;
-    /* object-fit: cover; */
   }
   .card-img {
     object-fit: contain;
     width: 100%;
     height:auto;
-    /* max-height:99%; */
-    /* max-width:98%; */
+    border-radius: 1em;
   }
   
   .card-painting-title {
-    height:10%;
+    max-height:10%;
     display: flex;
     justify-content: center;
+    margin: 15px auto 5px;
   }
   
   .painting-title {

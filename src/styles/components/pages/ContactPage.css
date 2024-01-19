@@ -1,5 +1,6 @@
 .contact {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   min-height: 72vh;
 }
@@ -9,6 +10,10 @@
 .h2_contactPage,
 .li_contactPage {
   margin: 7px;
+}
+
+.lu_contactPage{
+  margin: 30px;
 }
 
 .contact div {

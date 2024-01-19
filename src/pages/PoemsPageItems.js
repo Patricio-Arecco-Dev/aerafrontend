@@ -12,9 +12,6 @@ const PoemsItem = (props) => {
         <pre className="poem-poem">{poem}</pre>
         <div dangerouslySetInnerHTML={{ __html: body }} />
       </div>
-      {/*  <div className="card-poem-photo">
-        <img src={image} alt="of " />
-      </div> */ }
     </div>
   );
 };
